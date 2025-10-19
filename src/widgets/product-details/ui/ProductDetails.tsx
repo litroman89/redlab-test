@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FavoriteButton } from "@/shared/toggle-favorite/ui/FavoriteButton";
+import { FavoriteButton } from "@/shared/components/toggle-favorite/ui/FavoriteButton";
 import { useFavoritesStore } from "@/entities/favorites";
 import type { ProductDetailsProps } from "../model/types";
 import { containerVariants, itemVariants } from "@/shared/animations/variants";

@@ -1,5 +1,5 @@
 import { ProductCard } from "@/entities/product-card";
-import { FavoriteButton } from "@/shared/toggle-favorite/ui/FavoriteButton";
+import { FavoriteButton } from "@/shared/components/toggle-favorite/ui/FavoriteButton";
 import { useFavoritesStore } from "@/entities/favorites";
 import type { ProductListProps } from "../model/types";
 
