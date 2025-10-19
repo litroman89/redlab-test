@@ -15,7 +15,7 @@ export const FavoriteButton = ({
         toggleFavorite(product.id);
       }}
       className={`${styles.favoriteButton} ${isFavorite ? styles.active : ""}`}
-      aria-label="Додати до обраних"
+      aria-label={isFavorite ? "Видалити з обраних" : "В обране"}
     >
       {isFavorite ? "Видалити з обраних" : "В обране"}
     </button>
