@@ -1,0 +1,101 @@
+
+[
+  {
+    "id": "1",
+    "name": "Laptop wi iwas isid awi iawsd s Laptop wi iwas isid awi iawsd sLaptop wi iwas isid awi iawsd s",
+    "price": 1200,  
+    "category": "Electronics",
+    "description": "A high-performance laptop for all your needs.",
+    "image": "/assets/laptop.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Smartphone",
+    "price": 800,
+    "category": "Electronics",
+    "description": "A smartphone with a great camera and long battery life.",
+    "image": "/assets/phone.jpg"
+    
+  },
+  {
+    "id": "3",
+    "name": "Headphones",
+    "price": 150,
+    "category": "Electronics",
+    "description": "Noise-cancelling headphones for an immersive audio experience.",
+    "image": "/assets/headphones.jpg"
+  },
+  {
+    "id": "4",
+    "name": "T-shirt",
+    "price": 25,
+    "category": "Apparel",
+    "description": "A comfortable and stylish t-shirt.",
+    "image": "/assets/tshirt.jpg"
+    
+  },
+  {
+    "id": "5",
+    "name": "Jeans",
+    "price": 75,
+    "category": "Apparel",
+    "description": "Durable and fashionable jeans.",
+    "image": "/assets/jeans.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Sneakers",
+    "price": 100,
+    "category": "Apparel",
+    "description": "Comfortable sneakers for everyday wear.",
+    "image": "/assets/sneakers.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Coffee Maker",
+    "price": 50,
+    "category": "Home Goods",
+    "description": "Brew delicious coffee at home.",
+    "image": "/assets/coffee.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Blender",
+    "price": 40,
+    "category": "Home Goods",
+    "description": "A powerful blender for smoothies and more.",
+    "image": "/assets/blender.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Toaster",
+    "price": 30,
+    "category": "Home Goods",
+    "description": "A reliable toaster for your breakfast needs.",
+    "image": "/assets/toaster.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Backpack",
+    "price": 60,
+    "category": "Accessories",
+    "description": "A spacious and durable backpack.",
+    "image": "/assets/backpack.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Watch",
+    "price": 200,
+    "category": "Accessories",
+    "description": "A stylish watch to complement your look.",
+    "image": "/assets/watch.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Sunglasses",
+    "price": 120,
+    "category": "Accessories",
+    "description": "Protect your eyes with these fashionable sunglasses.",
+    "image": "/assets/sunglasses.jpg"
+  }
+]
