@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 export const useGetAllProducts = () => {
   const [products, setProducts] = useState<Product[]>([]);
-  const [loadingProducts, setLoadingProducts] = useState(true);
+  const [isLoadingProducts, setLoadingProducts] = useState(true);
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -24,5 +24,5 @@ export const useGetAllProducts = () => {
     fetchProducts();
   }, []);
 
-  return { products, loadingProducts };
+  return { products, isLoadingProducts };
 };

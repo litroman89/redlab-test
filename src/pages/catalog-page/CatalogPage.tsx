@@ -4,7 +4,7 @@ import { useSearchProducts } from "@/features/search-product/useSearchProduct";
 import { ProductList } from "@/widgets/product-list";
 
 export const CatalogPage = () => {
-  const { products, loadingProducts } = useGetAllProducts();
+  const { products, isLoadingProducts } = useGetAllProducts();
   const { filteredProducts, handleSearch, inputValue } = useSearchProducts({
     products,
   });
@@ -12,7 +12,7 @@ export const CatalogPage = () => {
   return (
     <>
       <SearchInput value={inputValue} onChange={handleSearch} />
-      <ProductList products={filteredProducts} isLoading={loadingProducts} />
+      <ProductList products={filteredProducts} isLoading={isLoadingProducts} />
     </>
   );
 };
